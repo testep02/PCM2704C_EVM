@@ -9002,6 +9002,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="U$4" library="SparkFun" deviceset="EEPROM-I2C" device="SMD"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="1k5"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0402" value="1u"/>
+<part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9123,6 +9125,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="U$4" gate="G$1" x="-45.72" y="86.36"/>
 <instance part="GND25" gate="1" x="-60.96" y="76.2"/>
 <instance part="R12" gate="G$1" x="25.4" y="93.98" rot="R90"/>
+<instance part="C17" gate="G$1" x="-20.32" y="88.9"/>
+<instance part="GND17" gate="1" x="-20.32" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -9340,6 +9344,10 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <junction x="-60.96" y="91.44"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -9393,6 +9401,9 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pinref part="U$4" gate="G$1" pin="VCC"/>
 <wire x1="-22.86" y1="91.44" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="91.44" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-22.86" y="91.44"/>
 </segment>
 <segment>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>

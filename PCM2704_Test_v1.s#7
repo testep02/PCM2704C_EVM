@@ -8911,6 +8911,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$10" library="pinhead" deviceset="JUMPER-2" device=""/>
 <part name="C7" library="rcl" deviceset="C-US" device="C0805" value="1u"/>
+<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8989,6 +8990,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="GND6" gate="1" x="134.62" y="30.48"/>
 <instance part="U$10" gate="G$1" x="96.52" y="2.54" rot="R90"/>
 <instance part="C7" gate="G$1" x="-55.88" y="-2.54"/>
+<instance part="GND5" gate="1" x="-55.88" y="-10.16"/>
 </instances>
 <busses>
 </busses>
@@ -9136,6 +9138,10 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <junction x="134.62" y="33.02"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VDD" class="0">
