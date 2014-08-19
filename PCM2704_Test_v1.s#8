@@ -8850,9 +8850,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="X1" library="con-usb" deviceset="USB" device="-MB-S"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0402" value="1u"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0402" value="1u"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="22"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="22"/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
@@ -8931,9 +8928,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="GND3" gate="1" x="38.1" y="48.26" rot="R270"/>
 <instance part="X1" gate="G$1" x="-142.24" y="45.72" rot="R180"/>
 <instance part="GND4" gate="1" x="-137.16" y="53.34" rot="R180"/>
-<instance part="GND5" gate="1" x="43.18" y="15.24"/>
-<instance part="C4" gate="G$1" x="27.94" y="30.48"/>
-<instance part="C5" gate="G$1" x="35.56" y="22.86"/>
 <instance part="R3" gate="G$1" x="-81.28" y="33.02"/>
 <instance part="R4" gate="G$1" x="-81.28" y="25.4"/>
 <instance part="C9" gate="G$1" x="160.02" y="17.78" rot="R90"/>
@@ -9046,19 +9040,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="-139.7" y1="45.72" x2="-137.16" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="45.72" x2="-137.16" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="AGNDL"/>
-<wire x1="50.8" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="30.48" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="25.4" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<junction x="43.18" y="30.48"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<junction x="35.56" y="25.4"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -9209,12 +9190,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBUS"/>
-<wire x1="50.8" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="35.56" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <label x="-91.44" y="43.18" size="1.778" layer="95"/>
 <wire x1="-93.98" y1="43.18" x2="-63.5" y2="43.18" width="0.1524" layer="91"/>
@@ -9225,15 +9200,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-55.88" y1="2.54" x2="91.44" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="0" x2="-55.88" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-55.88" y="2.54"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="17.78" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCCL"/>
-<wire x1="40.64" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
