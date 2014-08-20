@@ -9485,7 +9485,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="177.8" y1="40.64" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D-" class="0">
+<net name="D_N" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D-"/>
 <label x="40.64" y="40.64" size="1.778" layer="95"/>
@@ -9496,7 +9496,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-53.34" y1="33.02" x2="-76.2" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="D_P" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D+"/>
 <label x="40.64" y="38.1" size="1.778" layer="95"/>
@@ -9511,7 +9511,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <junction x="-7.62" y="38.1"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="USB_D_P" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="D+"/>
 <wire x1="-139.7" y1="38.1" x2="-137.16" y2="38.1" width="0.1524" layer="91"/>
@@ -9520,7 +9520,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-137.16" y1="25.4" x2="-86.36" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="USB_D_N" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="D-"/>
 <wire x1="-139.7" y1="40.64" x2="-134.62" y2="40.64" width="0.1524" layer="91"/>

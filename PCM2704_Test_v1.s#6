@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8137,100 +8137,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
-<library name="burr-brown-3">
-<description>&lt;b&gt;Burr-Brown Components&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT223">
-<description>&lt;b&gt;Smal Outline Transistor&lt;/b&gt;</description>
-<wire x1="-3.124" y1="1.731" x2="-3.124" y2="-1.729" width="0.1524" layer="21"/>
-<wire x1="3.124" y1="-1.729" x2="3.124" y2="1.731" width="0.1524" layer="21"/>
-<wire x1="-3.124" y1="1.731" x2="3.124" y2="1.731" width="0.1524" layer="21"/>
-<wire x1="3.124" y1="-1.729" x2="-3.124" y2="-1.729" width="0.1524" layer="21"/>
-<smd name="1" x="-2.2606" y="-3.1496" dx="1.4986" dy="2.0066" layer="1"/>
-<smd name="2" x="0.0254" y="-3.1496" dx="1.4986" dy="2.0066" layer="1"/>
-<smd name="3" x="2.3114" y="-3.1496" dx="1.4986" dy="2.0066" layer="1"/>
-<smd name="4" x="0" y="3.1496" dx="3.81" dy="2.0066" layer="1"/>
-<text x="-2.54" y="4.318" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.794" y="-5.842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.524" y1="1.778" x2="1.524" y2="3.302" layer="51"/>
-<rectangle x1="-2.667" y1="-3.302" x2="-1.905" y2="-1.778" layer="51"/>
-<rectangle x1="1.905" y1="-3.302" x2="2.667" y2="-1.778" layer="51"/>
-<rectangle x1="-0.381" y1="-3.302" x2="0.381" y2="-1.778" layer="51"/>
-</package>
-<package name="DD-3">
-<description>&lt;b&gt;DPAC&lt;/b&gt;</description>
-<wire x1="-5.398" y1="-4.445" x2="-5.084" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-5.084" y1="-4.445" x2="5.076" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="5.076" y1="-4.445" x2="5.398" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="5.398" y1="-4.445" x2="5.398" y2="4.128" width="0.1524" layer="21"/>
-<wire x1="5.398" y1="4.128" x2="-5.398" y2="4.128" width="0.1524" layer="21"/>
-<wire x1="-5.398" y1="4.128" x2="-5.398" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-5.084" y1="3.81" x2="5.076" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="5.076" y1="3.81" x2="5.076" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-5.084" y1="-4.445" x2="-5.084" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-5.398" y1="4.128" x2="-5.084" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="5.398" y1="4.128" x2="5.076" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-5.398" y1="4.128" x2="-5.398" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-5.398" y1="5.08" x2="-4.445" y2="5.715" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="5.715" x2="4.445" y2="5.715" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="5.715" x2="5.398" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="5.398" y1="5.08" x2="5.398" y2="4.128" width="0.1524" layer="21"/>
-<smd name="1" x="-2.54" y="-7.9375" dx="1.27" dy="5.08" layer="1"/>
-<smd name="2" x="0" y="-7.9375" dx="1.27" dy="5.08" layer="1"/>
-<smd name="3" x="2.54" y="-7.9375" dx="1.27" dy="5.08" layer="1"/>
-<text x="-3.81" y="-10.795" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-2.54" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.175" y1="-9.525" x2="-1.905" y2="-4.445" layer="51"/>
-<rectangle x1="-0.635" y1="-9.525" x2="0.635" y2="-4.445" layer="51"/>
-<rectangle x1="1.905" y1="-9.525" x2="3.175" y2="-4.445" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="REG1118">
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-7.62" y="5.715" size="1.778" layer="95" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
-<pin name="VIN" x="-12.7" y="0" length="middle" direction="in"/>
-<pin name="VOUT" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="REG1117" prefix="IC">
-<description>&lt;b&gt;800mA and 1A Low Dropout (LDO) Positive Regulator&lt;/b&gt;&lt;p&gt;
-1.8V, 2.5V, 2.85V, 3.3V, 5V, and Adj</description>
-<gates>
-<gate name="G$1" symbol="REG1118" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="F" package="DD-3">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -8949,21 +8855,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$2" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND9" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND10" library="SparkFun" deviceset="GND" device=""/>
-<part name="C13" library="rcl" deviceset="C-US" device="C0805" value="1u"/>
-<part name="GND11" library="SparkFun" deviceset="GND" device=""/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0805" value="1u"/>
-<part name="GND12" library="SparkFun" deviceset="GND" device=""/>
-<part name="IC1" library="burr-brown-3" deviceset="REG1117" device=""/>
-<part name="IC2" library="burr-brown-3" deviceset="REG1117" device=""/>
-<part name="C15" library="rcl" deviceset="C-US" device="C0805" value="1u"/>
-<part name="GND13" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND14" library="SparkFun" deviceset="GND" device=""/>
-<part name="VDD1" library="supply1" deviceset="VDD" device=""/>
-<part name="C16" library="rcl" deviceset="C-US" device="C0805" value="1u"/>
-<part name="GND15" library="SparkFun" deviceset="GND" device=""/>
-<part name="PWR" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="L1" library="rcl" deviceset="L-US" device="L3225M"/>
 <part name="JPBUS" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="1k5"/>
@@ -9070,21 +8961,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="GND7" gate="1" x="157.48" y="-17.78"/>
 <instance part="U$2" gate="G$1" x="198.12" y="15.24" rot="MR0"/>
 <instance part="GND8" gate="1" x="190.5" y="-2.54"/>
-<instance part="GND9" gate="1" x="-101.6" y="114.3"/>
-<instance part="GND10" gate="1" x="-127" y="147.32" rot="R180"/>
-<instance part="C13" gate="G$1" x="-124.46" y="124.46"/>
-<instance part="GND11" gate="1" x="-124.46" y="114.3"/>
-<instance part="C14" gate="G$1" x="-86.36" y="124.46"/>
-<instance part="GND12" gate="1" x="-86.36" y="114.3"/>
-<instance part="IC1" gate="G$1" x="-101.6" y="129.54"/>
-<instance part="IC2" gate="G$1" x="-40.64" y="129.54"/>
-<instance part="C15" gate="G$1" x="-58.42" y="124.46"/>
-<instance part="GND13" gate="1" x="-58.42" y="114.3"/>
-<instance part="GND14" gate="1" x="-40.64" y="114.3"/>
-<instance part="VDD1" gate="G$1" x="-20.32" y="129.54" rot="R270"/>
-<instance part="C16" gate="G$1" x="-25.4" y="127"/>
-<instance part="GND15" gate="1" x="-25.4" y="114.3"/>
-<instance part="PWR" gate="G$1" x="-142.24" y="137.16" rot="R180"/>
 <instance part="L1" gate="G$1" x="-101.6" y="43.18" rot="R90"/>
 <instance part="JPBUS" gate="G$1" x="-139.7" y="71.12" rot="R180"/>
 <instance part="R2" gate="G$1" x="35.56" y="93.98" rot="R90"/>
@@ -9199,40 +9075,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="-127" y1="137.16" x2="-127" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="PWR" gate="G$1" pin="2"/>
-<wire x1="-139.7" y1="137.16" x2="-127" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="-124.46" y1="116.84" x2="-124.46" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="-86.36" y1="116.84" x2="-86.36" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="-58.42" y1="116.84" x2="-58.42" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="-25.4" y1="116.84" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
@@ -9342,14 +9184,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </segment>
 </net>
 <net name="VDD" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="VOUT"/>
-<pinref part="VDD1" gate="G$1" pin="VDD"/>
-<wire x1="-22.86" y1="129.54" x2="-25.4" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="129.54" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
-<junction x="-25.4" y="129.54"/>
-</segment>
 <segment>
 <wire x1="12.7" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="43.18" x2="-15.24" y2="50.8" width="0.1524" layer="91"/>
@@ -9677,38 +9511,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="203.2" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VIN" class="0">
-<segment>
-<wire x1="-127" y1="134.62" x2="-127" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-127" y1="129.54" x2="-124.46" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="129.54" x2="-114.3" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="-124.46" y1="127" x2="-124.46" y2="129.54" width="0.1524" layer="91"/>
-<junction x="-124.46" y="129.54"/>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
-<pinref part="PWR" gate="G$1" pin="1"/>
-<wire x1="-139.7" y1="134.62" x2="-127" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="5V" class="0">
-<segment>
-<wire x1="-88.9" y1="129.54" x2="-86.36" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="-86.36" y1="129.54" x2="-81.28" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="129.54" x2="-86.36" y2="127" width="0.1524" layer="91"/>
-<junction x="-86.36" y="129.54"/>
-<pinref part="IC1" gate="G$1" pin="VOUT"/>
-<label x="-83.82" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VIN"/>
-<wire x1="-63.5" y1="129.54" x2="-58.42" y2="129.54" width="0.1524" layer="91"/>
-<label x="-63.5" y="129.54" size="1.778" layer="95"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="129.54" x2="-53.34" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="127" x2="-58.42" y2="129.54" width="0.1524" layer="91"/>
-<junction x="-58.42" y="129.54"/>
-</segment>
 <segment>
 <pinref part="JPBUS" gate="G$1" pin="2"/>
 <wire x1="-137.16" y1="71.12" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
